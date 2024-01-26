@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MOHAMMED TAIYUB V - Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>MOHAMMED TAIYUB V</h1>
+            <p>Web Developer | Designer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <img src="taiyub.jpg" alt="MOHAMMED TAIYUB V">
+            <p>Hello! I'm MOHAMMED TAIYUB V, a current BE Information Science student. As a passionate learner, I bring a diverse skill set and a goal-oriented approach to software development. Proficient in HTML, CSS, JavaScript, Python, C, and C++, I'm also familiar with Java's foundational Object-Oriented Programming (OOP) concepts.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-content">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-card">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="onlinefood.jpg" alt="Project 1">
+                <p>It is a public free, responsive front end webpage, built with HTML, CSS, and basic JavaScript. This project helped me apply and enhance my skills.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="project2.png" alt="Project 2">
+                <p>Developed a basic interactive calculator as my 2nd project in CodSoft.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="resume-content">
+            <h2>Resume</h2>
+            <p>Download my <a href="TaiyubResume.pdf" target="_blank">resume</a>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact</h2>
+            <p>Email: kabshataiyub@gmail.com</p>
+            <p>Phone: +91 9986288051</p>
+            <button class="contact-button" onclick="openContactForm()">Send Message</button>
+        </div>
+    </section>
+
+   
+
+    <!-- Contact Form (hidden initially) -->
+    <div id="contactForm" class="contact-form">
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <div>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+<div> 
+            <button class="submit-button" type="button" onclick="submitForm()">Submit</button>
+            <button class="close-button" type="button" onclick="closeContactForm()">Close</button>
+        </div>
+        
+        </form>
+    </div>
+
+    <!-- Script for Contact Form -->
+    <script>
+        function openContactForm() {
+            document.getElementById("contactForm").style.display = "block";
+        }
+
+        function closeContactForm() {
+            document.getElementById("contactForm").style.display = "none";
+        }
+
+        function submitForm() {
+            // Add logic to handle form submission
+            alert("Form submitted! (Functionality to be implemented)");
+            closeContactForm();
+        }
+    </script>
+
+</body>
+
+</html>
+
+ <!-- Footer -->
+ <footer>
+    <p>&copy; 2024 MOHAMMED TAIYUB V. All rights reserved.</p>
+</footer>
