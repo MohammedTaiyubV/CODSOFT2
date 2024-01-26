@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Updated font-family */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    text-align: center;
+}
+
+#about {
+    background-color: #212121;
+    padding: 40px;
+}
+
+.about-content {
+    text-align: center;
+    color: #fff; /* Text color updated to white */
+}
+
+#about img {
+    border-radius: 15%;
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 21px;
+    width: 200px;
+}
+
+#skills {
+    background-color: #3498db;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.skills-content {
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    background-color: #2980b9;
+    padding: 8px;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* Text color updated to white */
+    font-weight: bold; /* Added bold font-weight */
+}
+
+.skill:hover {
+    color: #333;
+}
+
+#projects {
+    padding: 40px 0;
+}
+
+.project-card {
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.resume-content,
+.contact-content {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.resume-content,
+.contact-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c1cfdb; /* Text color updated to white */
+    font-weight: bold; /* Added bold font-weight */
+}
+
+.resume-content a {
+    color: #ac0404;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    #about,
+    #skills,
+    #projects,
+    #resume,
+    #contact {
+        padding: 20px;
+    }
+
+    .project-card {
+        padding: 10px;
+    }
+}
