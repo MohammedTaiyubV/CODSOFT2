@@ -1,0 +1,1 @@
+this line is sample for about2.txt in feature/about-page branch
